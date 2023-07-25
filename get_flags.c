@@ -3,11 +3,8 @@
 /**
  * get_flags - Calculates active flags
  * @format: Formatted string in which to print the arguments
- *
  * @i: take a parameter.
- *
  * Return: Flags:
- *
  */
 
 int get_flags(const char *format, int *i)
@@ -60,15 +57,10 @@ get_precision.c
 
 /**
  * get_precision - Calculates the precision for printing
- *
  * @format: Formatted string in which to print the arguments
- *
  * @i: List of arguments to be printed.
  * @list: list of arguments.
- *
- *
  * Return: Precision.
- *
  */
 
 int get_precision(const char *format, int *i, va_list list)
